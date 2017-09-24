@@ -64,6 +64,12 @@ Now, proceed to run the stats_wrapper.sh file
 
 
 
+** ADDITIONAL NOTES **
+
+Sqoop can be modified in production environment and be configured for incremental data pulls. This is much more efficient for large amount of data.
+
+A better version of the cosine similarity can be implemented using the concept of TF-IDF. We can thus give lesser importance to frequently occuring words across search result urls like 'contact' or 'help'. Thus the similarity between search results will be more so oriented towards the domain root url and will be a better representation of the overall similarity between results. 
+
 
 
 
